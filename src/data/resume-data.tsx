@@ -20,10 +20,10 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Brad Bossard",
+  initials: "BB",
+  location: "Portland, OR",
+  locationLink: "https://www.google.com/maps/place/Portland,+OR",
   about:
     "Full Stack Engineer focused on building products with extra attention to detail",
   summary:
@@ -31,32 +31,33 @@ export const RESUME_DATA = {
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "bradbossard@proton.me",
+    tel: "+4155785437",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/bradleybossard",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/bradleybossard",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "University of Iowa",
+      degree: "Master's Degree in Electrical and Computer Engineering",
+      start: "2001",
+      end: "2003",
+    },
+    {
+      school: "University of Iowa",
+      degree: "Bachelor's Degree in Electrical Engineering",
+      start: "1999",
+      end: "2001",
     },
   ],
   work: [
@@ -109,10 +110,13 @@ export const RESUME_DATA = {
     "TypeScript",
     "React/Next.js/Remix",
     "Node.js",
+    /*
     "GraphQL",
     "Relay",
     "WebRTC",
+    */
   ],
+  /*
   projects: [
     {
       title: "Consultly",
@@ -275,4 +279,5 @@ export const RESUME_DATA = {
       logo: CDGOLogo,
     },
   ],
+  */
 } as const;
